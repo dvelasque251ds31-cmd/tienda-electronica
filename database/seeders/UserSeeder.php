@@ -9,15 +9,15 @@ class UserSeeder extends Seeder
 {
     public function run(): void
     {
-        // Contraseña para ambos usuarios: password
+        // Contraseña para ambos usuarios: 123456
         User::factory()->administrador()->create([
             'name'  => 'Administrador Tienda',
-            'email' => 'admin@tienda.test',
+            'email' => 'admin',
         ]);
 
         User::factory()->create([
             'name'  => 'Carlos Vendedor',
-            'email' => 'vendedor@tienda.test',
+            'email' => 'vendedor',
             'rol'   => 'vendedor',
         ]);
     }

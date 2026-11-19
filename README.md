@@ -62,7 +62,10 @@ Comando: php artisan migrate:fresh --seed
 ## Datos de prueba
 Comando: php artisan migrate:fresh --seed
 
-| Usuario                | Rol           | Contraseña |
-|------------------------|---------------|------------|
-| admin@tienda.test      | administrador | 123456     |
-| vendedor@tienda.test   | vendedor      | 123456     |
+## Datos de prueba
+Comando: php artisan migrate:fresh --seed
+
+| Usuario  | Rol           | Contraseña |
+|----------|---------------|------------|
+| admin    | administrador | 123456     |
+| vendedor | vendedor      | 123456     |
