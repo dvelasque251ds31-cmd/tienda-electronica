@@ -56,3 +56,13 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+## Datos de prueba
+Comando: php artisan migrate:fresh --seed
+
+## Datos de prueba
+Comando: php artisan migrate:fresh --seed
+
+| Usuario                | Rol           | Contraseña |
+|------------------------|---------------|------------|
+| admin@tienda.test      | administrador | 123456     |
+| vendedor@tienda.test   | vendedor      | 123456     |
