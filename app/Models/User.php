@@ -16,6 +16,7 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'rol',
     ];
 
     protected $hidden = [
@@ -34,5 +35,15 @@ class User extends Authenticatable
     public function sales(): HasMany
     {
         return $this->hasMany(Sale::class);
+    }
+
+    public function esAdministrador(): bool
+    {
+        return $this->rol === 'administrador';
+    }
+
+    public function esVendedor(): bool
+    {
+        return $this->rol === 'vendedor';
     }
 }

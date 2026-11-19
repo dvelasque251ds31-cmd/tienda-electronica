@@ -19,4 +19,4 @@ Route::middleware('auth:sanctum')->group(function () {
     Route::apiResource('brands', BrandController::class);
     Route::apiResource('products', ProductController::class);
     Route::apiResource('sales', SaleController::class)->except(['update']);
-});
+}); 
